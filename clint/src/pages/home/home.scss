@@ -1,0 +1,38 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/Foodart2.gif") no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  &__container {
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    // color: wheat;
+    color: rgb(52, 250, 174);
+    opacity: 0.8;
+  }
+}
+
+.button {
+  font-size: medium;
+  font-style: italic;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background-color: rgb(82, 255, 125);
+  opacity: 1;
+  text-decoration: none;
+}
+
+p {
+  font-weight: bold;
+}

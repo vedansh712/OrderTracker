@@ -1,0 +1,28 @@
+.sidebar {
+  background-color: rgba(52, 250, 174, 0.479);
+  height: 91.6vh;
+  padding: 10px;
+  //   width: 8%;
+  max-width: 10vw;
+}
+.sidebar__listitems {
+  font-size: large;
+  font-weight: 500;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: rgba(41, 196, 136, 0.479);
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  text-decoration: none;
+}
+Link {
+  text-decoration: none;
+}

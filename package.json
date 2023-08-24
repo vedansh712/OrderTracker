@@ -1,0 +1,17 @@
+{
+  "name": "main-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clint": "npm --prefix ./clint/ run dev",
+    "server": "nodemon server/server.js",
+    "dev": "concurrently \"npm run server\" \"npm run clint\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
