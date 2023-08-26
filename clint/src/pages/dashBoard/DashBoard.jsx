@@ -28,8 +28,8 @@ const DashBoard = () => {
           {Object.values(allOrders).map((item) => {
             return (
               <div key={item._id} className="orderlist">
-                <p>{item.order}</p>
-                <p>{item.phone}</p>
+                <p>Order : {item.order}</p>
+                <p>Phone No : {item.phone}</p>
               </div>
             );
           })}
