@@ -1,5 +1,5 @@
-const Order = require("../../database/model/order.model");
-const User = require("../../database/model/user.model");
+const Order = require("../model/order.model");
+const User = require("../model/user.model");
 
 const addorder = async (req, res) => {
   const { user_id, order, phone } = req.body;

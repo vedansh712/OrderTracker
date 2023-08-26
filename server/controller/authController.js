@@ -1,5 +1,5 @@
 // **************************************************************
-const User = require("../../database/model/user.model");
+const User = require("../model/user.model");
 const jwt = require("jsonwebtoken");
 // const validator = require("email-validator");
 // need to remove this validator
