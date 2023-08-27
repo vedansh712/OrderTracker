@@ -9,7 +9,13 @@ const morgan = require("morgan");
 
 const port = process.env.PORT || 5000;
 
-app.use(cors());
+app.use(
+  cors({
+    origin: ["https://order-tracker-api.vercel.app/"],
+    methods: ["POST", "GET"],
+    credentials: true,
+  })
+);
 app.use(morgan("dev"));
 app.use(express.json());
 app.use("/auth", authRoutes);
